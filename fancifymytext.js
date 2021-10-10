@@ -21,5 +21,6 @@ function makeBold() {
 function makeNormal() {
     var textarea = document.getElementById("ftext");
     document.getElementById("ftext").style.fontSize = "12pt";
-    
+    textarea.value = textarea.value.toLowerCase();
+    makeBold();
 }

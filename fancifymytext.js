@@ -8,7 +8,7 @@ function makeBold() {
     var textarea = document.getElementById("ftext");
     if (document.getElementById("bold").checked) {
         textarea.style.fontWeight = "bold";
-        textarea.style.textDecoration = "none";
+        textarea.style.textDecoration = "underline";
         textarea.style.color = "blue";
     } else {
         textarea.style.fontWeight = "normal";

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Fancify Schmancify</title>
+
+		<!-- link to your script file here -->
+		<script src= "fancifymytext.js" type="text/javascript"></script>
+
+	</head>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		fieldset {
+			border:5px
+			width: 40vw
+			text-align: center
+			margin: 20px;
+			font-size: 15px
+		}
+		
+		
+	</style>
+	<body>
+		
+		<h1>Fancify My Text</h1>
+		
+
+		<!-- Your UI controls go here -->
+
+		<div class = "container">
+			<fieldset>
+				<legend>Enter Random Words</legend>
+				<textarea name ="ftext" id="textarea" cols="30" rows="4"></textarea>
+			</fieldset>
+			<fieldset>
+				<legend>fancify</legend>
+				<button type="button" onclick="makeBigger();">Bigger!</button>
+				<button type="button" name="fancify" id="fancy"><label for="fancy">FancyShmancy</label></button>
+				<button type="button" name="fancify" id="boring"><label for="boring">BoringBetty</label></button>
+				<button onclick="makeNormal();">Moo!</button>
+				<label><input type="checkbox" id="bold" onclick="makeBold();"/> Bold</label><br /><br />
+
+			</fieldset>
+		</div>
+		
+	</body>
+
+</html>

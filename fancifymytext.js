@@ -23,6 +23,8 @@ function makeNormal() {
     document.getElementById("ftext").style.fontSize = "12pt";
     textarea.value = textarea.value.toLowerCase();
     makeBold();
+    alert("Hello, world!");
+
 }
 
 function makeFancy() {

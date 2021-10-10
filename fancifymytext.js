@@ -24,3 +24,9 @@ function makeNormal() {
     textarea.value = textarea.value.toLowerCase();
     makeBold();
 }
+
+function makeFancy() {
+    var textarea = document.getElementById("ftext");
+    textarea.value = textarea.value.toUpperCase();
+    textarea.value = textarea.value.split(".").join("Moo");
+}

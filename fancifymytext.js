@@ -30,3 +30,9 @@ function makeFancy() {
     textarea.value = textarea.value.toUpperCase();
     textarea.value = textarea.value.split(".").join("Moo");
 }
+
+function makeBoring() {
+    var textarea = document.getElementById("ftext");
+    textarea.value = textarea.value.toLowerCase();
+    textarea.value = textarea.value.split(".").join("Moo");
+}

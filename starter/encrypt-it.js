@@ -35,6 +35,11 @@
     shiftCipher(text);
   }
 
+  function performReset() {
+    console.log("Reset");
+  
+  }
+
   function makeSmallFont() {
     var text = document.getElementById("ftext");
     document.getElementById("ftext").style.fontSize = "12pt";

@@ -30,13 +30,13 @@
   // you shouldn't write an entire Java program in the main method).
 
   function performClick() {
-    console.log('Button clicked!');
+    console.log('Encrypt-It Button Clicked!');
     var text = document.getElementById("input-text");
     shiftCipher(text);
   }
 
   function performReset() {
-    console.log("Reset");
+    console.log("Reset Button Clicked!");
   
   }
 

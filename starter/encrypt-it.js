@@ -25,4 +25,16 @@
   // entire program in the init function, for similar reasons that
   // you shouldn't write an entire Java program in the main method).
 
+  function makeSmallFont() {
+    var textarea = document.getElementById("ftext");
+    document.getElementById("ftext").style.fontSize = "12pt";
+    
+  }
+
+  function makeSmallFont() {
+    var textarea = document.getElementById("ftext");
+    document.getElementById("ftext").style.fontSize = "12pt";
+    
+  }
+
 })();

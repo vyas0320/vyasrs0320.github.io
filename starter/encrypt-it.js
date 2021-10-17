@@ -22,7 +22,7 @@
     let encrypt_button = document.querySelector("#encrypt-it");
     encrypt_button.addEventListener("click", performClick);
     let reset_button = document.querySelector("#reset");
-    reset_button.addEventListener("click", performClick);
+    reset_button.addEventListener("click", performReset);
   }
 
   // Add any other functions in this area (you should not implement your

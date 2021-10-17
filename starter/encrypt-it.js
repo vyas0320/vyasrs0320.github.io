@@ -36,13 +36,13 @@
   }
 
   function makeSmallFont() {
-    var textarea = document.getElementById("ftext");
+    var text = document.getElementById("ftext");
     document.getElementById("ftext").style.fontSize = "12pt";
     
   }
 
   function makeSmallFont() {
-    var textarea = document.getElementById("ftext");
+    var text = document.getElementById("ftext");
     document.getElementById("ftext").style.fontSize = "24pt";
     
   }
@@ -53,7 +53,7 @@
  * and 'z' is shifted to 'a' (creating an alphabetical cycle).
  */
 function shiftCipher(text) {
-  text = text.toLowerCase();
+  text = text.value.toLowerCase();
   let result = "";
   for (let i = 0; i < text.length; i++) {
     if (text[i] < 'a' || text[i] > 'z') {

@@ -10,7 +10,7 @@
    * on the page. When this event occurs, the attached function (init) will be called.
    */
   window.addEventListener("load", init);
-  console.log("Window loaded!");
+  
 
   /**
    * TODO: Write a function comment using JSDoc.
@@ -18,6 +18,7 @@
   function init() {
     // Note: In this function, we usually want to set up our event handlers
     // for UI elements on the page.
+    console.log("Window loaded!");
   }
 
   // Add any other functions in this area (you should not implement your

@@ -20,22 +20,22 @@
     // for UI elements on the page.
     console.log("Window loaded!");
     let encrypt_button = document.querySelector("#encrypt-it");
-    encrypt_button.addEventListener("click", performClick);
+    encrypt_button.addEventListener("click", handleClick);
     let reset_button = document.querySelector("#reset");
-    reset_button.addEventListener("click", performReset);
+    reset_button.addEventListener("reset", handleReset);
   }
 
   // Add any other functions in this area (you should not implement your
   // entire program in the init function, for similar reasons that
   // you shouldn't write an entire Java program in the main method).
 
-  function performClick() {
+  function handleClick() {
     console.log('Encrypt-It Button Clicked!');
     var text = document.getElementById("input-text");
     shiftCipher(text);
   }
 
-  function performReset() {
+  function handleReset() {
     console.log("Reset Button Clicked!");
   
   }

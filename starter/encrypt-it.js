@@ -41,14 +41,14 @@
   }
 
   function makeSmallFont() {
-    var text = document.getElementById("ftext");
-    document.getElementById("ftext").style.fontSize = "12pt";
+    var text = document.getElementById("result");
+    document.getElementById("result").style.fontSize = "12pt";
     
   }
 
-  function makeSmallFont() {
-    var text = document.getElementById("ftext");
-    document.getElementById("ftext").style.fontSize = "24pt";
+  function makeBigFont() {
+    var text = document.getElementById("result");
+    document.getElementById("result").style.fontSize = "24pt";
     
   }
 

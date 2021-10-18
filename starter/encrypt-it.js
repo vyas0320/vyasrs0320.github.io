@@ -43,17 +43,7 @@
   
   }
 
-  function makeSmallFont() {
-    var text = document.getElementById("result");
-    document.getElementById("result").style.fontSize = "12pt";
-    
-  }
-
-  function makeBigFont() {
-    var text = document.getElementById("result");
-    document.getElementById("result").style.fontSize = "24pt";
-    
-  }
+  
 
   function generateCipher() {
     if ($("cipher-type").value = "shift") {
@@ -81,7 +71,7 @@ function shiftCipher(text) {
       result += resultLetter;
     }
   }
-  return result;
+  document.getElementById("result").innerHTML = result;
 }
 
 

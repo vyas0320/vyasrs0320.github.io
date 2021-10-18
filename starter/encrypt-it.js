@@ -38,7 +38,7 @@
 
   function handleReset() {
     console.log("Reset Button Clicked!");
-    document.getElementById("input-text").value='';
+    document.getElementById("input-text").value = '';
   
   }
 

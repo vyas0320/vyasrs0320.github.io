@@ -10,6 +10,9 @@
    * on the page. When this event occurs, the attached function (init) will be called.
    */
   window.addEventListener("load", init);
+  window.onload = function() {
+    $("encrypt-it").onclick = generateCipher;
+  }
   
 
   /**

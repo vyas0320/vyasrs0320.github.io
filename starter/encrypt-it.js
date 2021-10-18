@@ -52,6 +52,13 @@
     
   }
 
+  function generateCipher() {
+    if ($("cipher-type").value = "shift") {
+      shiftCipher("input-text").value.toLowerCase());
+    }
+    
+    
+  }
   /**
  * Returns an encrypted version of the given text, where
  * each letter is shifted alphabetically ahead by 1 letter,

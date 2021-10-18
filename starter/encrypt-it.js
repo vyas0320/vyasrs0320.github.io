@@ -54,7 +54,7 @@
 
   function generateCipher() {
     if ($("cipher-type").value = "shift") {
-      shiftCipher("input-text").value.toLowerCase());
+      shiftCipher("input-text").value.toLowerCase();
     }
     
     
